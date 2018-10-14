@@ -1,0 +1,7 @@
+To run: open index.html in your favourite browser
+
+To build:
+```
+npm install --dev
+webpack
+```

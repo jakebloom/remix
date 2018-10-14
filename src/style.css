@@ -1,0 +1,39 @@
+.bus {
+    display: flex;
+    min-height: 50px;
+    border-bottom: 1px solid lightgrey;
+    align-items: center;
+}
+
+.bus:nth-child(2n) {
+    background-color: #eee;
+}
+
+.trip {
+    border: 1px solid;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+}
+
+#root {
+    position: relative;
+    margin: 100px;
+}
+
+.selected {
+    background-color: lightgrey;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.interval {
+    position: absolute;
+    width: 60px;
+}
+
+.header {
+    height: 20px;
+}
